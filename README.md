@@ -24,4 +24,11 @@ rmdir foo                 # Delete empty directory
 rm foo.txt                # Delete file
 cp foo.txt bar.txt        # Copy file
 mv foo.txt bar.txt        # Move file
+touch src/foo.ts          # Create file
+```
+Steps to publish a code change to git:
+```bash
+git add .                        # Add to Git
+git commit -m "Commit message"   # Commit changes to Git
+git push                         # Push changes to Git
 ```
